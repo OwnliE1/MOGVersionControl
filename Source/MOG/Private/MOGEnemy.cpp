@@ -169,16 +169,7 @@ void AMOGEnemy::CombatOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAc
 
 void AMOGEnemy::ChasingOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	/*
-	if (OtherActor)
-	{
-		AMOGChar* Player = Cast<AMOGChar>(OtherActor);
-		if (Player)
-		{
-			MyChar = Player;
-		}
-	}
-	*/
+	
 }
 
 void AMOGEnemy::CombatOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
